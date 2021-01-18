@@ -9,8 +9,12 @@ class HomeBinding implements Bindings {
   void dependencies() {
     Get.lazyPut<HomeController>(() {
       return HomeController(
-          repository:
-              MyRepository(apiClient: MyApiClient(httpClient: http.Client())));
+        repository: MyRepository(
+          apiClient: MyApiClient(
+            httpClient: http.Client(),
+          ),
+        ),
+      );
     });
   }
 }

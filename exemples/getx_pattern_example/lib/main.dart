@@ -17,7 +17,7 @@ void main() {
         defaultTransition: Transition.fade,
         getPages: AppPages.pages,
         home: HomePage(),
-        locale: Locale('pt', 'BR'),
+        locale: Locale('vi', 'VN'),
         translationsKeys: AppTranslation.translations,
     )
   );
