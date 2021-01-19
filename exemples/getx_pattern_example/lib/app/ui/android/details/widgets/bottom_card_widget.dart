@@ -20,7 +20,6 @@ class CardBottomCustomWidget extends StatelessWidget {
                       )),
             ),
           ),
-          
         ],
       ),
     );

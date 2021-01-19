@@ -1,3 +1,3 @@
 final Map<String, String> viVn = {
-  'oi':'Holla'
+  'oi': 'Xin chào',
 };

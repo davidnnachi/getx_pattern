@@ -13,7 +13,4 @@ class MyRepository {
   getId(id) {
     return apiClient.getId(id);
   }
-
-
-
 }
